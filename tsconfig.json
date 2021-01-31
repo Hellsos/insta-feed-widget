@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": false,
+    "noImplicitThis": false,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./"
+  },
+  "files": [
+    "src/custom.d.ts"
+  ],
+  "include": [
+    "assets",
+    "src/typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "types": [
+    "typePatches"
+  ]
+}
