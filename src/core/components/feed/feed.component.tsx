@@ -27,9 +27,9 @@ const FeedComponent = ( props : IProps ) => {
 
 const Wrapper = styled.ul`
 	display: flex;
-	padding: 0;
+	padding: 10px 0;
     flex-wrap: wrap;
-    margin: -10px;
+    margin: -15px;
     justify-content: center;
 `;
 
