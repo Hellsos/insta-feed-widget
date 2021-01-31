@@ -25,8 +25,9 @@ const FeedComponent = ( props : IProps ) => {
 	</Wrapper>;
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.ul`
 	display: flex;
+	padding: 0;
     flex-wrap: wrap;
     margin: -10px;
     justify-content: center;

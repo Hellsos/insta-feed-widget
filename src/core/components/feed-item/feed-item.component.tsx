@@ -33,7 +33,7 @@ const FeedItemComponent = ( props : IProps ) => {
 	</Wrapper>;
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.li`
 	display: flex;
     margin: 5px;
 	min-width: 100px;
