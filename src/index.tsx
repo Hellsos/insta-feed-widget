@@ -14,7 +14,6 @@ type InstaFeedWidget = {
 
 	ReactDOM.render(
 		<InstagramWidget api={ api }
-						 target={ target } />,
-		document.getElementById( "boot-me" )
+						 target={ target } />, target
 	);
 };
